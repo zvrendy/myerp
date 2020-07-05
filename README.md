@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # myerp
 Project ERP
 =======
