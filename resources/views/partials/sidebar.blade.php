@@ -1,65 +1,5 @@
 @inject('request', 'Illuminate\Http\Request')
 
-{{--<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
-    <div class="menu_section">
-        <h3>General</h3>
-        <ul class="nav side-menu">
-            <li class="{{ $request->segment(1) == 'home' ? 'active' : '' }}">
-                <a href="{{ url('/') }}">
-                    <i class="fas fa-tachometer-alt"></i>
-                    <span class="title">@lang('backend.dashboard')</span>
-                </a>
-            </li>
-
-            @can('user_management_access')
-            <li>
-                <a href="#">
-                    <i class="fa fa-users"></i>
-                    <span class="title">@lang('quickadmin.user-management.title')</span>
-                    <span class="fa fa-chevron-down"> </span>
-                </a>
-                <ul class="nav child_menu">
-
-                    @can('role_access')
-                    <li class="{{ $request->segment(2) == 'roles' ? 'active active-sub' : '' }}">
-                        <a href="{{ route('admin.roles.index') }}">
-                            <i class="fa fa-briefcase"></i>
-                            <span class="title">
-                                @lang('quickadmin.roles.title')
-                            </span>
-                        </a>
-                    </li>
-                    @endcan
-
-                    @can('user_access')
-                    <li class="{{ $request->segment(2) == 'users' ? 'active active-sub' : '' }}">
-                        <a href="{{ route('admin.users.index') }}">
-                            <i class="fa fa-user"></i>
-                            <span class="title">
-                                @lang('quickadmin.users.title')
-                            </span>
-                        </a>
-                    </li>
-                    @endcan
-
-                    <li class="{{ $request->segment(1) == 'change_password' ? 'active' : '' }}">
-                        <a href="{{ route('auth.change_password') }}">
-                            <i class="fa fa-key"></i>
-                            <span class="title">Change password</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#logout" onclick="$('#logout').submit();">
-                            <i class="fa fa-arrow-left"></i>
-                            <span class="title">@lang('quickadmin.qa_logout')</span>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            @endcan
-        </ul>
-    </div>
-</div>--}}
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
@@ -80,7 +20,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block">
-          
+
           </a>
         </div>
       </div>
@@ -107,7 +47,7 @@
               </ul>
               @endif
           </li>
-          @endforeach                    
+          @endforeach
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -116,7 +56,7 @@
 
 
 
-      
+
     </div>
     <!-- /. End sidebar -->
   </aside>
