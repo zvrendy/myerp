@@ -70,7 +70,7 @@
   });
   $('#menu_table').DataTable({
          processing: true,
-         serverSide: true,
+
         
          ajax: {
           url: "{{ route('menu.index') }}",

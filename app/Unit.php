@@ -7,7 +7,7 @@ use CompositeKey;
 
 class Unit extends Model
 {
-    protected $table = 'unit';
+    protected $table = 'mst_unit';
     protected $primaryKey = ['id_unit', 'kd_unit'];
     protected $guarded = ['id_unit'];
     public $timestamps = false;

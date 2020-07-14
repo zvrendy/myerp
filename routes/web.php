@@ -11,13 +11,7 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 
-// Route::get('/', function () {
-//     return view('content.dashboard');
-// });
 
 Route::get('/login', function () {
     return view('login');
@@ -73,14 +67,6 @@ Route::resource('/Menu', 'MenuController')->names([
     'edit' => 'menu.edit',
     'delete' => 'menu.destroy',
 ]);
-
-Route::resource('/AccountReceivablePesanan', 'ArPesananHdrController')->names([
-    'index' => 'accountreceivablepesanan.index',
-    'store' => 'accountreceivablepesanan.store',
-    'edit' => 'accountreceivablepesanan.edit',
-    'delete' => 'accountreceivablepesanan.destroy',
-]);
-
 
 
 

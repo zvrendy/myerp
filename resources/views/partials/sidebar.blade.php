@@ -65,7 +65,7 @@
     <!-- Brand Logo -->
     <a href="{{ url('/') }}" class="brand-link">
       <img src="{{ asset('fav.png')}}"
-           alt="AdminLTE Logo"
+           alt="#"
            class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">MyERP</span>
@@ -80,7 +80,7 @@
         </div>
         <div class="info">
           <a href="#" class="d-block">
-          {{ Auth::user()->name }}
+          
           </a>
         </div>
       </div>
