@@ -7,7 +7,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">

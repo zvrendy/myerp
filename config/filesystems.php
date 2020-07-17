@@ -62,8 +62,30 @@ return [
             'region' => env('AWS_DEFAULT_REGION'),
             'bucket' => env('AWS_BUCKET'),
             'url' => env('AWS_URL'),
+<<<<<<< HEAD
+=======
+            'endpoint' => env('AWS_ENDPOINT'),
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
         ],
 
     ],
 
+<<<<<<< HEAD
+=======
+    /*
+    |--------------------------------------------------------------------------
+    | Symbolic Links
+    |--------------------------------------------------------------------------
+    |
+    | Here you may configure the symbolic links that will be created when the
+    | `storage:link` Artisan command is executed. The array keys should be
+    | the locations of the links and the values should be their targets.
+    |
+    */
+
+    'links' => [
+        public_path('storage') => storage_path('app/public'),
+    ],
+
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 ];

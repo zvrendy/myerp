@@ -39,7 +39,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'debug' => env('APP_DEBUG', false),
+=======
+    'debug' => (bool) env('APP_DEBUG', false),
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +56,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'url' => env('APP_URL', 'http://localhost'),
+=======
+    'url' => env('APP_URL', 'http://demo.optimac.co.id'),
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
     'asset_url' => env('ASSET_URL', null),
 
@@ -106,7 +114,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'faker_locale' => 'id_ID',
+=======
+    'faker_locale' => 'en_US',
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
     /*
     |--------------------------------------------------------------------------
@@ -119,7 +131,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'key' => env('APP_KEY'),
+=======
+    'key' => env('APP_KEY','a2bg5jzugmneezw8pzuod6tsgyrmr0u7'),
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
     'cipher' => 'AES-256-CBC',
 
@@ -174,7 +190,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
 
+=======
+       
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
     ],
 
     /*
@@ -207,6 +227,10 @@ return [
         'File' => Illuminate\Support\Facades\File::class,
         'Gate' => Illuminate\Support\Facades\Gate::class,
         'Hash' => Illuminate\Support\Facades\Hash::class,
+<<<<<<< HEAD
+=======
+        'Http' => Illuminate\Support\Facades\Http::class,
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
         'Lang' => Illuminate\Support\Facades\Lang::class,
         'Log' => Illuminate\Support\Facades\Log::class,
         'Mail' => Illuminate\Support\Facades\Mail::class,
@@ -225,6 +249,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+<<<<<<< HEAD
+=======
+        
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
     ],
 

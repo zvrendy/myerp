@@ -4,8 +4,11 @@ namespace App\Http\Controllers;
 
 use App\ArPesananDtl;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Redirect, Response;
 use DataTables;
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 
 class ArPesananDtlController extends Controller
 {
@@ -16,6 +19,7 @@ class ArPesananDtlController extends Controller
      */
     public function index()
     {
+<<<<<<< HEAD
 
         if (request()->ajax()) {
 
@@ -31,6 +35,9 @@ class ArPesananDtlController extends Controller
                 ->rawColumns(['action'])
                 ->make(true);
         }
+=======
+        //
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
     }
 
     /**
@@ -51,6 +58,7 @@ class ArPesananDtlController extends Controller
      */
     public function store(Request $request)
     {
+<<<<<<< HEAD
         $arpesandtl = ArPesananDtl::updateOrCreate(
             ['id_sp_d' => $request->id_sp_d],
             [
@@ -71,6 +79,9 @@ class ArPesananDtlController extends Controller
         );
 
         return Response::json($arpesandtl);
+=======
+        //
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
     }
 
     /**

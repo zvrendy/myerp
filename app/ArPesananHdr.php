@@ -10,6 +10,7 @@ class ArPesananHdr extends Model
     protected $primaryKey = 'id_sp_h';
     protected $guarded = ['id_sp_h'];
     public $timestamps = false;
+<<<<<<< HEAD
 
     public function customer()
     {
@@ -19,4 +20,6 @@ class ArPesananHdr extends Model
     {
         return $this->hasMany(ArPesananDtl::class, 'id_sp_d');
     }
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 }

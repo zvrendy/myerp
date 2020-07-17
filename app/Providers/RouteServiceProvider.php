@@ -59,8 +59,13 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapWebRoutes()
     {
         Route::middleware('web')
+<<<<<<< HEAD
              ->namespace($this->namespace)
              ->group(base_path('routes/web.php'));
+=======
+            ->namespace($this->namespace)
+            ->group(base_path('routes/web.php'));
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
     }
 
     /**
@@ -73,8 +78,14 @@ class RouteServiceProvider extends ServiceProvider
     protected function mapApiRoutes()
     {
         Route::prefix('api')
+<<<<<<< HEAD
              ->middleware('api')
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
+=======
+            ->middleware('api')
+            ->namespace($this->namespace)
+            ->group(base_path('routes/api.php'));
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
     }
 }

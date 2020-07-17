@@ -14,6 +14,7 @@ class CreateArPesananHdrTable extends Migration
     public function up()
     {
         Schema::create('ar_pesanan_hdr', function (Blueprint $table) {
+<<<<<<< HEAD
             $table->bigIncrements('id_sp_h');
             $table->string('no_dok');
             $table->string('id_cust');
@@ -24,6 +25,10 @@ class CreateArPesananHdrTable extends Migration
             $table->timestamp('tgl_input');
             $table->timestamp('tgl_update')->nullable();
             $table->string('kode_cabang')->nullable();
+=======
+            $table->bigIncrements('id');
+            $table->timestamps();
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
         });
     }
 

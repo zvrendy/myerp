@@ -44,13 +44,27 @@
                         </div>
                         <!-- company -->
                         <div class="form-group row input-group mb-3">
+<<<<<<< HEAD
                             <label for="company" class="col-sm-4 col-form-label">Perusahaan</label>
                             <select id="company" name="company" class="custom-select custom-select-sm">
+=======
+                            <label for="company" class="col-sm-4 col-form-label">Cabang</label>
+                            <select id="company" name="companyproject" class="custom-select custom-select-sm">
+                                {{-- @foreach($cmp as $company_id => $company)
+                            <option value="{{ $company_id }}">
+                                {{ $company }}
+                                </option>
+                                @endforeach --}}
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
                             </select>
                         </div>
                         <!-- companyproject -->
                         <div class="form-group row input-group mb-3">
+<<<<<<< HEAD
                             <label for="companyproject" class="col-sm-4 col-form-label">Cabang</label>
+=======
+                            <label for="companyproject" class="col-sm-4 col-form-label">Perusahaan</label>
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
                             <select id="companyproject" name="companyproject" class="custom-select custom-select-sm">
                             </select>
                         </div>
@@ -208,7 +222,11 @@
     <script type="text/javascript">
         $("#company").change(function() {
             $.ajax({
+<<<<<<< HEAD
                 url: "{{ route('login.fetch') }}?kode_usaha=" + $(this).val(),
+=======
+                url: "{{ route('login.fetch') }}?company_id=" + $(this).val(),
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
                 method: 'GET',
                 success: function(data) {
                     $('#companyproject').html(data.html);
@@ -216,7 +234,14 @@
             });
         });
     </script>
+<<<<<<< HEAD
 
 </body>
 
 </html>
+=======
+    </script>
+</body>
+
+</html>
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0

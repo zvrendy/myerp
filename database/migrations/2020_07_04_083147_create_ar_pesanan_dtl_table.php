@@ -14,6 +14,7 @@ class CreateArPesananDtlTable extends Migration
     public function up()
     {
         Schema::create('ar_pesanan_dtl', function (Blueprint $table) {
+<<<<<<< HEAD
             $table->bigIncrements('id_sp_d');
             $table->string('kode_trans');
             $table->string('kd_unit');
@@ -29,6 +30,10 @@ class CreateArPesananDtlTable extends Migration
             $table->string('user_stamp')->nullable();
             $table->timestamp('tgl_input');
             $table->timestamp('tgl_update')->nullable();
+=======
+            $table->bigIncrements('id');
+            $table->timestamps();
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
         });
     }
 

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> f3dd647... First Commit
@@ -28,6 +29,8 @@ Homestead.json
 <<<<<<< HEAD
 =======
 =======
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 /node_modules
 /public/hot
 /public/storage
@@ -40,5 +43,8 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
+<<<<<<< HEAD
 >>>>>>> First Commit
 >>>>>>> f3dd647... First Commit
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0

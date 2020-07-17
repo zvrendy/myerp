@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // require('./bootstrap');
 
 import Vue from 'vue'
@@ -18,3 +19,6 @@ new Vue({
         'dw-app': App
     }
 })
+=======
+require('./bootstrap');
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0

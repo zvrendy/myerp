@@ -14,7 +14,13 @@ class Kernel extends HttpKernel
      * @var array
      */
     protected $middleware = [
+<<<<<<< HEAD
         \App\Http\Middleware\TrustProxies::class,
+=======
+        // \App\Http\Middleware\TrustHosts::class,
+        \App\Http\Middleware\TrustProxies::class,
+        \Fruitcake\Cors\HandleCors::class,
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
         \App\Http\Middleware\CheckForMaintenanceMode::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
@@ -62,6 +68,7 @@ class Kernel extends HttpKernel
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
         'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
     ];
+<<<<<<< HEAD
 
     /**
      * The priority-sorted list of middleware.
@@ -79,4 +86,6 @@ class Kernel extends HttpKernel
         \Illuminate\Routing\Middleware\SubstituteBindings::class,
         \Illuminate\Auth\Middleware\Authorize::class,
     ];
+=======
+>>>>>>> a1fa5ea8a9beb6ec036c9c3d8a72106fea3231e0
 }
